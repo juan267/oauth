@@ -1,38 +1,24 @@
-# OAuth Challenge
+### Purpose
+The Sinatra Skeleton:
 
-## Learning Competencies
+1. Provides a foundation for building challenges.
+2. Demonstrates a reasonable set of practices around building Sinatra applications.
+3. Eases the transition to Rails for Dev Bootcamp students
+4. Demonstrates that it is not **required** that all models in `app/models` be
+   `ActiveRecord` backed!
+5. Gives bare-bones RSpec skeleton wherewith to start building the practice of testing
 
-- What's OAuth
-- How OAuth works
-- Using OAuth to authenticate an API
+### Quickstart
 
-## Summary
-In this challenge you will make LinkedIn API calls using OAuth 2.0. You are NOT
-allowed to use any OAuth or API gems. You will implement this challenge by using
-[Faraday Gem](https://github.com/lostisland/faraday) to make http requests.
+1.  `bundle install`
+2.  `shotgun config.ru`
 
-## Releases
+### Contributing
 
-### Release 0: Starting with OAuth
-- Understand what is OAuth, spend sometime [reading about it](http://bit.ly/AqN5GG).
-- Follow steps 1-3 from the [Linked In API Docs](https://developer.linkedin.com/documents/authentication)
+We would love for you to help make the skeleton more awesome, There are three ways to contribute:
 
-### Release 1: Make Requests
-- Save the access token for each user in the databas'e (for future use).
-- Make API requests against the user's profile:
-  - GET private profile of a user
-  - GET public profile of a user
-  - Look at the API docs and find what other actions you can do on behalf of the user.
+1. Ask for a bug fix or enhancement!
+2. Submit a pull request for a bug fix or enhancement!
+3. Code review an open pull request!
 
-### Release 3: Create a Gem
-How do many gems come to existance? through projects like this one. While working on a project,
-some smart engineers like yourselves decide to share their work and findings with the rest of
-the world. After solving the problem of connecting to LinkedIn API through OAuth, you decided to share that
-awesome work with the world. Your mission is to create a Gem that easily allows users
-to connect and communicate with the LinkedIn API through OAuth. Through your gem, the user
-shouldn't have to worry about things like Faraday or other dependencies. All they need to do is
-initialize an object with their LinkedIn API key and secret and use that object for all OAuth and
-API interactions. Bundler provides a [great and easy way](http://bundler.io/v1.6/rubygems.html) to create a gem skeleton.
-
-## Resources
-https://developer.linkedin.com/documents/authentication
+Be prepared to give and receive specific, actionable, and kind feedback!
