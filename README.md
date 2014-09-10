@@ -9,7 +9,7 @@
 ## Summary
 In this challenge you will make LinkedIn API calls using OAuth 2.0. You are NOT
 allowed to use any OAuth or API gems. You will implement this challenge by using
-[Faraday Gem](https://github.com/lostisland/faraday) to make http requests.
+[HTTParty Gem](https://github.com/jnunemaker/httparty) to make http requests.
 
 ## Releases
 
@@ -30,7 +30,7 @@ some smart engineers like yourselves decide to share their work and findings wit
 the world. After solving the problem of connecting to LinkedIn API through OAuth, you decided to share that
 awesome work with the world. Your mission is to create a Gem that easily allows users
 to connect and communicate with the LinkedIn API through OAuth. Through your gem, the user
-shouldn't have to worry about things like Faraday or other dependencies. All they need to do is
+shouldn't have to worry about things like HTTParty or other dependencies. All they need to do is
 initialize an object with their LinkedIn API key and secret and use that object for all OAuth and
 API interactions. Bundler provides a [great and easy way](http://bundler.io/v1.6/rubygems.html) to create a gem skeleton.
 
