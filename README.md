@@ -24,15 +24,6 @@ the [HTTParty Gem](https://github.com/jnunemaker/httparty) to make HTTP requests
   - GET public profile of a user
   - Look at the API docs and find what other actions you can do on behalf of the user.
 
-### Release 2: Create a Gem
-How do many gems come to existance? through projects like this one. While working on a project,
-some smart engineers like yourselves decide to share their work and findings with the rest of
-the world. After solving the problem of connecting to LinkedIn API through OAuth, you decided to share that
-awesome work with the world. Your mission is to create a Gem that easily allows users
-to connect and communicate with the LinkedIn API through OAuth. Through your gem, the user
-shouldn't have to worry about things like HTTParty or other dependencies. All they need to do is
-initialize an object with their LinkedIn API key and secret and use that object for all OAuth and
-API interactions. Bundler provides a [great and easy way](http://bundler.io/v1.6/rubygems.html) to create a gem skeleton.
 
 ## Resources
 https://developer.linkedin.com/documents/authentication
