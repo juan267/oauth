@@ -22,7 +22,7 @@ the [HTTParty Gem](https://github.com/jnunemaker/httparty) to make HTTP requests
 - Make API requests against the user's profile:
   - GET private profile of a user
   - GET public profile of a user
-  - Look at the API docs and find what other actions you can do on behalf of the user.
+  - Look at the API docs and find what other actions you can do on behalf of the user. :video_game:
 
 
 ## Resources
